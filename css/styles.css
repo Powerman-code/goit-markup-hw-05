@@ -429,6 +429,8 @@ background-position: center;
 
 .work-description{
   position: absolute;
+  bottom: 0;
+  right: 0;
   display: flex;
   min-width: 370px;
   overflow: hidden;
