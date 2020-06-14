@@ -86,7 +86,7 @@ img {
   margin-left: auto;
   margin-right: auto;
   width: 1170px;
-  outline: 2px solid tomato;
+  /* outline: 2px solid tomato; */
 }
 
 .page-header {
@@ -102,7 +102,7 @@ img {
   margin-left: auto;
   margin-right: auto;
   width: 1170px;
-  outline: 2px solid tomato;
+  /* outline: 2px solid tomato; */
 }
 
 
@@ -175,6 +175,10 @@ img {
 .site-nav .link.current {
   color: var(--accent-color);
 }
+
+/* .site-nav .link.current {
+
+} */
 
 .email-and-phone {
   display: flex;
@@ -823,7 +827,7 @@ background-position: center;
   padding-left: 15px;
   padding-right: 15px;
   width: 1170px;
-  outline: 2px solid tomato;
+  /* outline: 2px solid tomato; */
 }
 
 .logo-bottom {
@@ -1039,7 +1043,7 @@ background-position: center;
   margin-top: 94px;
   margin-bottom: 50px;
   width: 1170px;
-  outline: 2px solid tomato;
+  /* outline: 2px solid tomato; */
 }
 
 .filter-button-block {
@@ -1071,7 +1075,7 @@ background-position: center;
   margin-top: 0 px;
   margin-bottom: 94px;
   width: 1170px;
-  outline: 2px solid tomato;
+  /* outline: 2px solid tomato; */
 
   color: var(--title-text-color)
 }
@@ -1083,6 +1087,8 @@ background-position: center;
 }
 
 .card {
+  position: relative;
+
   width: 370px;
   overflow: hidden;
   border-top-left-radius: 5px;
@@ -1117,7 +1123,7 @@ background-position: center;
 
 .portfolio-element:nth-child(3n) {
   margin-right: 0;
-  background-color: greenyellow;
+  /* background-color: greenyellow; */
 }
 
 .portfolio-element:nth-last-child(-n + 3) {
@@ -1153,7 +1159,15 @@ background-position: center;
   letter-spacing: 0.03em;
 }
 
+.card-fade {
+  display: flex;
+  position: fixed;
+  outline: 2px solid var(--accent-color);
 
+  width: 370px;
+  height: 100%;
+
+}
 
 /* Скрытый заголовок */
 
