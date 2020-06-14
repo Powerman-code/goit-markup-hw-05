@@ -137,6 +137,8 @@ img {
 }
 
 .site-nav-li {
+  position: relative;
+
   display: flex;
   margin-left: 86px;
   padding-top: 32px;
@@ -176,9 +178,19 @@ img {
   color: var(--accent-color);
 }
 
-/* .site-nav .link.current {
+.site-nav .link.current::after {
+  display: inline-block;
+  content: "";
 
-} */
+  bottom: 0;
+  left: 0;
+  position: absolute;
+
+  height: 4px;
+  width: 100%;
+  background: var(--accent-color);
+  border-radius: 2px;
+}
 
 .email-and-phone {
   display: flex;
